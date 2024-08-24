@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{% block title %}Himanshu's Portfolio{% endblock %}</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css')}}">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class = "logo"> Himanshu's Portfolio </div>
+            <nav>
+                <ul>
+                    <li><a href="{{ url_for('index')}}"> Home </li>
+                    <li><a href="{{ url_for('about')}}"> About </li>
+                    <li><a href="{{ url_for('projects')}}"> Projects </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class = "container">
+            {% block content %}{% endblock %}
+        </div>
+
+        <footer>
+            <p> &copy; 2024 Himanshu's Portfolio - Designed with ❤️ by Me </p>
+        </footer>
+    </body>
+</html>
