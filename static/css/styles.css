@@ -63,41 +63,6 @@ h3 {
     color: grey
 }
 
-/* Table css code below */
-.table_component {
-    overflow: auto;
-    width: 100%;
-}
-
-.table_component table {
-    border: 1px solid #153c43;
-    height: 100%;
-    width: 100%;
-    table-layout: fixed;
-    border-collapse: collapse;
-    border-spacing: 1px;
-    text-align: center;
-}
-
-.table_component caption {
-    caption-side: top;
-    text-align: center;
-}
-
-.table_component th {
-    border: 1px solid #9d3434;
-    background-color: #906bbd;
-    color: #000000;
-    padding: 5px;
-}
-
-.table_component td {
-    border: 1px solid #9d3434;
-    background-color: #ffffff;
-    color: #000000;
-    padding: 5px;
-}
-
 /* faded animation below here */
 @keyframes fadeIn {
     from { opacity: 0; }
