@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    // Dark mode toggle
+    // Dark mode toggle switch
     const themeToggle = document.getElementById('theme-toggle');
     const currentTheme = localStorage.getItem('theme') || 'light';
     document.body.setAttribute('data-theme', currentTheme);
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
         localStorage.setItem('theme', theme);
     });
 
-    // Fade in animation on page load
+    // Fade in animation on page loading
     const container = document.querySelector('.container');
     container.style.opacity = 1;
 });
