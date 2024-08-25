@@ -1,13 +1,31 @@
 {% extends 'base.html' %}
 
-{% block title %}My Projects{% endblock %}
+{% block title %} My Projects {% endblock %}
 
 {% block content %}
-<h1>My Projects</h1>
-<p>
-    This is the projects page showcasing my work.
-    <h3> This is my Github profile - <a href = 'https://github.com/Hitman7084'> Hitman7084 </a></h3>
-    <h4 class = 'proj'><a href = 'https://github.com/Hitman7084/Mini-Project'> Dice Arcade </a></h4>
-    <h4 class = 'proj'><a href = 'https://github.com/Hitman7084/Realtime_people_counting'> Realtime People Counting </a></h4>
-</p>
+<h1> My Projects </h1>
+    <div class="table_component" role="region" tabindex="0">
+        <table>
+            <caption> My Projects </caption>
+            <thead>
+                <tr>
+                    <th> Project Name </th>
+                    <th> About Project </th>
+                    <th> Link </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> Dice Arcade </td>
+                    <td> College Project in 3rd year </td>
+                    <td><a href = 'https://github.com/Hitman7084/Mini-Project'> link </a></td>
+                </tr>
+                <tr>
+                    <td> Realtime People Counting </td>
+                    <td> python project using OpenCV for counting number of people </td>
+                    <td><a href = 'https://github.com/Hitman7084/Realtime_people_counting'> link </a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 {% endblock %}
