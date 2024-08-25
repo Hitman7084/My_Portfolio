@@ -42,6 +42,14 @@ h1 {
     color: #333;
 }
 
+h3 {
+    color: slateblue
+}
+
+.proj {
+    color: grey
+}
+
 /* faded animation below here */
 @keyframes fadeIn {
     from { opacity: 0; }
