@@ -1,28 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang = "en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}Portfolio{% endblock %}</title>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    <title> {% block title %} Himanshu's Portfolio {% endblock %} </title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 </head>
-<body data-theme="light">
+<body data-theme = "light">
     <nav>
         <ul>
-            <li><a href="{{ url_for('home') }}">Home</a></li>
-            <li><a href="{{ url_for('about') }}">About</a></li>
-            <li><a href="{{ url_for('projects') }}">Projects</a></li>
+            <li><a href = "{{ url_for('home') }}"> Home </a></li>
+            <li><a href = "{{ url_for('about') }}"> About </a></li>
+            <li><a href = "{{ url_for('projects') }}"> Projects </a></li>
             <li>
-                <label class="switch">
-                    <input type="checkbox" id="theme-toggle">
-                    <span class="slider"></span>
+                <label class = "switch">
+                    <input type = "checkbox" id = "theme-toggle">
+                    <span class = "slider"></span>
                 </label>
             </li>
         </ul>
     </nav>
-    <div class="container">
+    <div class = "container">
         {% block content %}{% endblock %}
     </div>
-    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+    <script src = "{{ url_for('static', filename='js/scripts.js') }}"></script>
 </body>
 </html>
