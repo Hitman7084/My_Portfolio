@@ -12,9 +12,9 @@
             <div class = "logo"> Himanshu's Portfolio </div>
             <nav>
                 <ul>
-                    <li><a href="{{ url_for('index')}}"> Home </li>
-                    <li><a href="{{ url_for('about')}}"> About </li>
-                    <li><a href="{{ url_for('projects')}}"> Projects </li>
+                    <li><a href="{{ redirect(url_for('index'))}}"> Home </li>
+                    <li><a href="{{ redirect(url_for('about'))}}"> About </li>
+                    <li><a href="{{ redirect(url_for('projects'))}}"> Projects </li>
                 </ul>
             </nav>
         </header>
