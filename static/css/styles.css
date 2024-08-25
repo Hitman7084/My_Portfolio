@@ -1,6 +1,7 @@
 /* simple ones are here */
 body {
     font-family: Arial, sans-serif;
+    background-color: #90aead;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,7 +9,7 @@ body {
 }
 
 nav ul {
-    background-color: #333;
+    background-color: #874f41;
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -38,8 +39,13 @@ nav ul li a:hover {
     animation: fadeIn 1s forwards;
 }
 
+p {
+    text-align: center;
+}
+
 h1 {
     color: #333;
+    text-align: center;
 }
 
 h3 {
