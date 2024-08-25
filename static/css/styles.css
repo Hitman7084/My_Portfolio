@@ -11,7 +11,7 @@ body {
 }
 
 nav ul {
-    background-color: #874f41;
+    background-color: #474b4f;
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -44,7 +44,7 @@ nav ul li a:hover {
 p {
     text-align: center;
     font-size: 40px;
-    color: #E64833;
+    color: #a16e83;
 }
 
 h1 {
