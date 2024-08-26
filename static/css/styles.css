@@ -17,16 +17,18 @@ ul {
     padding: 20px 15px;
     border-radius: 12px;
     box-shadow: 0 5px 10px black;
+    gap: 2%;
 }
 
 ul li {
     list-style: none;
     margin: 0 12px;
+    font-family: cursive;
 }
 
 ul a {
     position: relative;
-    color: #333;
+    color: #331;
     font-size: 20px;
     font-weight: 500;
     padding: 6px 0;
@@ -62,8 +64,9 @@ p {
 }
 
 h1 {
-    color: #fbe9d0;
     text-align: center;
+    color: #fbe9d0;
+    font-family: cursive;
 }
 
 h3 {
