@@ -34,6 +34,7 @@ ul a {
     padding: 6px 0;
     text-decoration: none;
 }
+
 ul li a:before {
     content: '';
     position: absolute;
