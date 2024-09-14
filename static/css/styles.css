@@ -75,19 +75,13 @@ h3 {
 }
 
 .proj {
-    text-align: left;
     font-size: 20px;
-    color: grey;
+    color: rgb(206, 159, 159);
 }
 
 .icon {
-    height: 80px;
-    width: 80px;
-}
-
-.git{
-    height : auto;
-    width: auto;
+    height: 100px;
+    width: 100px;
 }
 
 .container {
