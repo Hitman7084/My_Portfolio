@@ -79,6 +79,7 @@ h3 {
     text-align: left;
     font-size: 20px;
     color: grey;
+    image-resolution: 20px 20px;
 }
 
 .container {
