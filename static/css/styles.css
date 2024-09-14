@@ -87,8 +87,8 @@ h3 {
 }
 
 .git{
-    height : 168px;
-    width: 300px;
+    height : auto;
+    width: auto;
 }
 
 .container {
