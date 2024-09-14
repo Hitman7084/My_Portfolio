@@ -82,8 +82,13 @@ h3 {
 }
 
 .icon {
-    height: 40px;
-    width: 50px;
+    height: 80px;
+    width: 80px;
+}
+
+.git{
+    height : 168px;
+    width: 300px;
 }
 
 .container {
