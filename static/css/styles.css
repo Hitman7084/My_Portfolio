@@ -79,11 +79,12 @@ h3 {
     color: rgb(206, 159, 159);
     width: 100px;
     height: 100px;
-    display: flexbox;
+    display: flex;
 }
 
 .sergeant1 {
-
+    width: 100px;
+    height: 100px;
 }
 
 .icon {
