@@ -77,11 +77,13 @@ h3 {
 .captain {
     font-size: 20px;
     color: rgb(206, 159, 159);
+    width: 100px;
+    height: 100px;
     display: flexbox;
 }
 
 .sergeant1 {
-    text-align: ;
+
 }
 
 .icon {
