@@ -74,11 +74,15 @@ h3 {
     color: #fbe9d0
 }
 
-.proj {
+.captain {
     font-size: 20px;
     color: rgb(206, 159, 159);
     text-align: center;
-    display: inline-block;
+    display: flexbox;
+}
+
+.sergeant1 {
+    text-align: ;
 }
 
 .icon {
