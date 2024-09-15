@@ -76,15 +76,18 @@ h3 {
 
 .captain {
     font-size: 20px;
+    text-align: center;
     color: rgb(206, 159, 159);
     width: 100px;
     height: 100px;
     display: flex;
+    padding-left: 33%;
 }
 
 .sergeant1 {
     width: 100px;
     height: 100px;
+    padding-right: 75px;
 }
 
 .sergeant2 {
