@@ -73,11 +73,12 @@ h3 {
 
 .captain {
     font-size: 20px;
-    font-family: cursive;
-    text-align: center;
-    color: black;
     width: 100px;
     height: 100px;
+    font-family: cursive;
+    align-items: flex-start;
+    color: black;
+    justify-content: space-around;
     display: flex;
     padding-left: 33%;
 }
