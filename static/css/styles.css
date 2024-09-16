@@ -39,7 +39,7 @@ ul li a:before {
     left: 0;
     height: 3px;
     width: 0%;
-    background: #FAEBD1;
+    background: black;
     border-radius: 12px;
     transition: all 0.4s ease;
 }
@@ -73,8 +73,9 @@ h3 {
 
 .captain {
     font-size: 20px;
+    font-family: cursive;
     text-align: center;
-    color: rgb(206, 159, 159);
+    color: black;
     width: 100px;
     height: 100px;
     display: flex;
