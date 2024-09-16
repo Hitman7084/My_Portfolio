@@ -71,27 +71,32 @@ h3 {
     color: black
 }
 
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
 .captain {
-    font-size: 20px;
+    font-size: 15px;
+    margin: auto;
+    text-align: center;
     width: 100px;
     height: 100px;
     font-family: cursive;
+    flex-direction: rows;
     align-items: flex-start;
     color: black;
     justify-content: space-around;
     display: flex;
-    padding-left: 33%;
 }
 
 .sergeant1 {
-    width: 100px;
-    height: 100px;
-    padding-right: 75px;
+    padding-right: 25px;
 }
 
 .sergeant2 {
-    width: 100px;
-    height: 100px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .icon {
