@@ -68,7 +68,8 @@ h1 {
 
 h3 {
     text-align: center;
-    color: black
+    color: black;
+    font-family: cursive;
 }
 
 div {
@@ -78,13 +79,12 @@ div {
 
 .captain {
     font-size: 15px;
-    margin: auto;
     text-align: center;
+    margin-left: 33%;
+    margin-right: 33%;
     width: 100px;
     height: 100px;
     font-family: cursive;
-    flex-direction: rows;
-    align-items: flex-start;
     color: black;
     justify-content: space-around;
     display: flex;
