@@ -4,21 +4,21 @@ document.addEventListener('DOMContentLoaded', function () {
     container.style.opacity = 1;
 });
 
-const reveals = document.querySelectorAll('.reveal');
+document.addEventListener('DOMContentLoaded', function () {
+    const typewriterElement = document.getElementById('typing');
+    
+    const text = typewriterElement.dataset.text || typewriterElement.textContent;
+    typewriterElement.textContent = '';
 
-const revealOnScroll = () => {
-    for (let i = 0; i < reveals.length; i++){
-        const windowheight = window.innerHeight;
-        const revealtop = reveals[i].getBoundingClientRect().top;
-        const revealpoint = 150;
+    let index = 0;
 
-        if (revealtop < windowheight - revealpoint){
-            reveals[i].classList.add('active');
+    const typeEffect = () => {
+        if (index < text.length) {
+            typewriterElement.textContent += text.charAt(index);
+            index++;
+            setTimeout(typeEffect, 100);
         }
-        else{
-            reveals[i].classList.remove('active');
-        }
-    }
-};
+    };
 
-window.addEventListener('scroll', revealOnScroll);
+    typeEffect();
+});

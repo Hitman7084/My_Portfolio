@@ -79,6 +79,7 @@ p {
 }
 
 h1 {
+    padding-top: 120px;
     text-align: center;
     color: Black;
     font-family: cursive;
@@ -102,11 +103,11 @@ h1 {
 }
 
 .container {
-    padding: 150px;
+    padding: 20px;
     opacity: 0;
 }
 
-/* animations */
+/* animations 
 .reveal {
     opacity: 0;
     transform: translateY(20px);
@@ -117,6 +118,7 @@ h1 {
     opacity: 1;
     transform: translateY(0px);
 }
+*/
 
 /* faded animation below here */
 @keyframes fadeIn {
