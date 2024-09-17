@@ -7,14 +7,27 @@ body {
     box-sizing: border-box;
 }
 
-.pic {
-    display: inline-block;
+#logo {
+    display: flex;
 }
 
-nav {
-    text-align: right;
+.pic {
     
 }
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    display: inline;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
 
 p {
     text-align: center;
