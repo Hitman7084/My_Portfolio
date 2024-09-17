@@ -108,6 +108,11 @@ h1 {
     height: auto;
 }
 
+.icon-text {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
 .container {
     padding: 20px;
     opacity: 0;
