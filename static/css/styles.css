@@ -7,25 +7,52 @@ body {
     box-sizing: border-box;
 }
 
+#pic {
+   
+}
+
 ul {
-    list-style-type: none;
-    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 20px 12px;
+    border-radius: 12px;
+    gap: 2%;
 }
 
-li a img {
-    float: left;
+ul li {
+    list-style: none;
+    margin: 0px 12px;
+    font-family: cursive;
 }
 
-li {
-    float: right;
-}
-
-li a {
-    display: block;
+ul a {
+    position: relative;
     color: black;
-    text-align: center;
-    padding: 14px 16px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 6px 0px;
     text-decoration: none;
+}
+
+ul li a:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    width: 0%;
+    background: black;
+    border-radius: 12px;
+    transition: all 0.4s ease;
+}
+  
+ul li a:hover:before {
+    width: 100%;
+}
+  
+ul li a:before {
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 p {
