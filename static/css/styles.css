@@ -7,10 +7,18 @@ body {
     box-sizing: border-box;
 }
 
-#pic {
-   
+nav {
+    display: flex;
+    justify-content: space-between; /* Space between logo and nav links */
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
 }
 
+.pic img {
+    height: 50px;
+}
+ 
 ul {
     display: flex;
     align-items: center;

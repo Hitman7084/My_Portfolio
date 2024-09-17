@@ -9,8 +9,10 @@
 <body data-theme = "light">
     <nav>
         <div id = 'logo'>
+            <div class = 'pic'>
+                <img  src = '../static/images/logo3.png'>
+            </div>
             <ul>
-                <li><a href = "#"><img id = 'pic' src = '../static/images/logo3.png' height = '40px' width = '55px'></a></li>
                 <li><a href = "{{ url_for('home') }}"> Home </a></li>
                 <li><a href = "{{ url_for('about') }}"> About </a></li>
                 <li><a href = "{{ url_for('projects') }}"> Project </a></li>
