@@ -8,11 +8,14 @@ body {
 }
 
 .logo {
-    div 
+    display: inline-block;
+    height: 40px;
+    width: 110px;
 }
 
 ul {
     text-align: right;
+    
 }
 
 p {
