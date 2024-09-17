@@ -88,19 +88,25 @@ h1 {
 .captain {
     font-size: 20px;
     text-align: center;
-    font-family: cursive;
     color: black;
     display: flex;
     justify-content: space-around;
     gap: 50px;
-    margin-left: 33%;
-    margin-right: 33%;
 }
 
 .sergeant {
+    font-family: cursive;
     text-align: center;
     display: inline-block;
     margin: 20px;
+}
+
+.admiral {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    text-align: center;
 }
 
 .icon {
