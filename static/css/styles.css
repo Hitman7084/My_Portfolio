@@ -7,51 +7,7 @@ body {
     box-sizing: border-box;
 }
 
-ul {
-    display: flex;
-    align-items: center;
-    background: #FAEBD1;
-    padding: 20px 15px;
-    border-radius: 12px;
-    box-shadow: 0 5px 10px black;
-    gap: 2%;
-}
 
-ul li {
-    list-style: none;
-    margin: 0 12px;
-    font-family: cursive;
-}
-
-ul a {
-    position: relative;
-    color: black;
-    font-size: 20px;
-    font-weight: 500;
-    padding: 6px 0;
-    text-decoration: none;
-}
-
-ul li a:before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 3px;
-    width: 0%;
-    background: black;
-    border-radius: 12px;
-    transition: all 0.4s ease;
-}
-  
-ul li a:hover:before {
-    width: 100%;
-}
-  
-ul li a:before {
-    left: 50%;
-    transform: translateX(-50%);
-}
 
 p {
     text-align: center;
