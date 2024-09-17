@@ -71,7 +71,7 @@ ul li a:before {
     transform: translateX(-50%);
 }
 
-p {
+.para {
     text-align: center;
     font-size: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -93,6 +93,8 @@ h1 {
     display: flex;
     justify-content: space-around;
     gap: 50px;
+    margin-left: 33%;
+    margin-right: 33%;
 }
 
 .sergeant {
