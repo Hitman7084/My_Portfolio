@@ -4,11 +4,21 @@ document.addEventListener('DOMContentLoaded', function () {
     container.style.opacity = 1;
 });
 
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behaviour: 'smooth'
-        })
-    })
-})
+const reveals = document.querySelectorAll('.reveal');
+
+const revealOnScroll = () => {
+    for (let i = 0; i < reveals.length; i++){
+        const windowheight = window.innerHeight;
+        const revealtop = reveals[i].getBoundingClientRect().top;
+        const revealpoint = 150;
+
+        if (revealtop < windowheight - revealpoint){
+            reveals[i].classList.add('active');
+        }
+        else{
+            reveals[i].classList.remove('active');
+        }
+    }
+};
+
+window.addEventListener('scroll', revealOnScroll);

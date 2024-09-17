@@ -110,7 +110,7 @@ h1 {
 .reveal {
     opacity: 0;
     transform: translateY(20px);
-    transition: all 0.6s ease;
+    transition: all 1s ease;
 }
 
 .reveal.active {
