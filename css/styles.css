@@ -162,7 +162,7 @@ h1 {
 }
 
 /* Hover animation on icons */
-.hvr-float-shadow {
+.icon {
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
