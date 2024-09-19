@@ -1,25 +1,11 @@
-<!DOCTYPE html>
-<html lang = "en">
-<head>
-    <meta charset = "UTF-8">
-    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
-    <title> {% block title %} Himanshu's Portfolio {% endblock %} </title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
-</head>
-<body>
-    <nav>
-        <div class = 'pic'>
-            <img  src = '../static/images/logo2.png'>
-        </div>
-        <ul>
-            <li><a href = "{{ url_for('home') }}"> Home </a></li>
-            <li><a href = "{{ url_for('about') }}"> About </a></li>
-            <li><a href = "{{ url_for('projects') }}"> Project </a></li>
-        </ul>
-    </nav>
-    <div class = "container">
-        {% block content %}{% endblock %}
-    </div>
-    <script src = "{{ url_for('static', filename='js/scripts.js') }}"></script>
-</body>
-</html>
+{% extends 'base.html' %}
+
+{% block title %} Home - Portfolio {% endblock %}
+
+{% block content %}
+<h1 id = 'typing'> Welcome to my Portfolio website </h1>
+<p class ='para'>
+    Hello there! My name is Himanshu Mall and this is the first page for my portfolio website.
+    From here you can see my projects as well as about me 😊.
+</p>
+{% endblock %}
