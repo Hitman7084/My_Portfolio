@@ -175,7 +175,7 @@ h1 {
     transition-property: transform;
 }
   
-.hvr-float-shadow:before {
+.icon:before {
     pointer-events: none;
     position: absolute;
     z-index: -1;
@@ -194,13 +194,13 @@ h1 {
     transition-property: transform, opacity;
 }
 
-.hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {
+.icon:hover, .icon:focus, .icon:active {
     -webkit-transform: translateY(-5px);
     transform: translateY(-5px);
     /* move the element up by 5px */
 }
 
-.hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
+.icon:hover:before, .icon:focus:before, .icon:active:before {
     opacity: 1;
     -webkit-transform: translateY(5px);
     transform: translateY(5px);
