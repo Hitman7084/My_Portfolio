@@ -225,7 +225,6 @@ h1 {
     padding: 16px;
     font-size: 2em;
     margin: 2px;
-  
     /* When not hovering, this transition is active */
     transition: all 5s ease-in 200ms;
 }
