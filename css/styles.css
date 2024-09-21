@@ -63,7 +63,7 @@ ul li a:before {
     left: 0;
     height: 3px;
     width: 0%;
-    background: black;
+    background: grey;
     border-radius: 12px;
     transition: all 0.4s ease;
 }
@@ -81,7 +81,7 @@ ul li a:before {
     text-align: center;
     font-size: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: black;
+    color: white;
 }
 
 h1 {
