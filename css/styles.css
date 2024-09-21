@@ -86,7 +86,7 @@ ul li a:before {
 h1 {
     padding-top: 120px;
     text-align: center;
-    color: white;
+    color: black;
     font-family: cursive;
 }
 
@@ -94,7 +94,7 @@ h1 {
 .captain {
     font-size: 20px;
     text-align: center;
-    color: white;
+    color: black;
     display: flex;
     justify-content: space-around;
     gap: 50px;
@@ -128,7 +128,7 @@ h1 {
 .icon-text {
     margin-top: 20px;
     font-size: 20px;
-    color: white;
+    color: black;
 }
 
 /* Container General */
