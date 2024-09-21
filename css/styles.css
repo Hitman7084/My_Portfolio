@@ -49,7 +49,7 @@ ul li {
 
 ul a {
     position: relative;
-    color: black;
+    color: white;
     font-size: 20px;
     font-weight: 500;
     padding: 6px 0px;
@@ -87,7 +87,7 @@ ul li a:before {
 h1 {
     padding-top: 120px;
     text-align: center;
-    color: Black;
+    color: white;
     font-family: cursive;
 }
 
