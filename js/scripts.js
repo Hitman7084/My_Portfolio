@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 $(document).ready(()=>{
-    $(window).scroll((=>{
-        $('body').addClass
-    }))
+    $(window).scroll(()=>{
+        $('body').addClass('scrolled')
+    })
 })
