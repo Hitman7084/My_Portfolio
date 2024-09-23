@@ -46,9 +46,3 @@ document.addEventListener('DOMContentLoaded', function () {
     window.addEventListener('load', activateSections);
     activateSections(); // Run on page load
 });
-
-$(document).ready(()=>{
-    $(window).scroll(()=>{
-        $('body').addClass('scrolled')
-    })
-})
