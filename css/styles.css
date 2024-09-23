@@ -91,11 +91,11 @@ h1 {
     font-family: cursive;
 }
 
-#projects {
+/*#projects {
     background-image: url('../images/bg_dark.jpg');
     transition: background-image 3s;
     background-repeat: no-repeat; 
-}
+} */
 
 /* Project Section */
 .captain {
