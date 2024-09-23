@@ -47,3 +47,8 @@ document.addEventListener('DOMContentLoaded', function () {
     activateSections(); // Run on page load
 });
 
+$(document).ready(()=>{
+    $(window).scroll((=>{
+        $('body').addClass
+    }))
+})
