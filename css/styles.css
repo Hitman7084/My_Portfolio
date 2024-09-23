@@ -86,6 +86,7 @@ ul li a:before {
 h1 {
     padding-top: 120px;
     text-align: center;
+    font-size: 60px;
     color: black;
     font-family: cursive;
 }
