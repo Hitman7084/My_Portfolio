@@ -48,8 +48,8 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 var image = new Image(); 
- 
-      image.src = ""; 
+
+      image.src = "../images/bg_light.jpg"; 
       image.onload = function () { 
         $(".element").css("background-image",  
                           "url('" + image.src + "')"); 
