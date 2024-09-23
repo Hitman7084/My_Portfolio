@@ -47,10 +47,3 @@ document.addEventListener('DOMContentLoaded', function () {
     activateSections(); // Run on page load
 });
 
-var image = new Image(); 
-
-      image.src = "../images/bg_light.jpg"; 
-      image.onload = function () { 
-        $("#projects").css("background-image",  
-                          "url('" + image.src + "')"); 
-      }; 
