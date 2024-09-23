@@ -51,6 +51,6 @@ var image = new Image();
 
       image.src = "../images/bg_light.jpg"; 
       image.onload = function () { 
-        $(".element").css("background-image",  
+        $("#projects").css("background-image",  
                           "url('" + image.src + "')"); 
       }; 
