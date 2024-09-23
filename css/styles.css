@@ -94,6 +94,10 @@ h1 {
 #projects {
     background-image: url('../images/bg_dark.jpg');
     transition: background-image 3s;
+    width: 60%; 
+    height: 100%; 
+    padding: 200px; 
+    background-repeat: no-repeat; 
 }
 
 /* Project Section */
