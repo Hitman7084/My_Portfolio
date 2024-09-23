@@ -93,6 +93,7 @@ h1 {
 
 #projects {
     background-image: url('../images/bg_dark.jpg');
+    transition: background-image 3s;
 }
 
 /* Project Section */
