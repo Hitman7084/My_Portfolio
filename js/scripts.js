@@ -62,4 +62,27 @@ document.addEventListener('DOMContentLoaded', function () {
             popBubble(bubble);
         });
     });
+
+    // Function to animate the skill bars
+    const animateSkillBars = () => {
+        const skillBars = document.querySelectorAll('.skill-bar');
+        skillBars.forEach(skill => {
+            let skillValue = skill.getAttribute('data-skill');
+            const skillProgress = skill.querySelector('.skill-progress');
+            skillProgress.style.width = `${skillValue}%`; // Set width based on skill percentage
+        });
+    };
+
+    // Trigger animation when the section comes into view
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                animateSkillBars(); // Run the animation when the section is visible
+                observer.disconnect(); // Stop observing once the animation has been triggered
+            }
+        });
+    });
+
+    const skillSection = document.querySelector('.skills-section');
+    observer.observe(skillSection);
 });

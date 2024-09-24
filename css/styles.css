@@ -279,6 +279,70 @@ h1 {
     gap: 10px;
 }
 
+.skills-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.skill-bar-container {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.skill-bar {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    height: 30px;
+}
+
+.skill-label {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+.skill-progress {
+    background-color: salmon;
+    height: 100%;
+    width: 0;
+    border-radius: 10px 0 0 10px;
+    transition: width 1.5s ease-in-out;
+}
+
+/* Different Colors for Each Skill */
+#python-skill .skill-progress {
+    background-color: #54426B;
+}
+
+#Django-skill .skill-progress {
+    background-color: #623CEA;
+}
+
+#Flask-skill .skill-progress {
+    background-color: #f4a261;
+}
+
+#html-skill .skill-progress {
+    background-color: #E34C26;
+}
+
+#css-skill .skill-progress {
+    background-color: #1572B6;
+}
+
+#js-skill .skill-progress {
+    background-color: #F0DB4F;
+}
+
 /* Subtle animated gradient 
 @keyframes gradientBG {
     0% { background-position: 0% 50%; }
