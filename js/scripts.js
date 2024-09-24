@@ -7,43 +7,32 @@ document.addEventListener('DOMContentLoaded', function () {
         typewriterElement.textContent = '';
     
         let index = 0;
+        const typingSpeed = 100; // Set the typing speed here
     
         const typeEffect = () => {
             if (index < text.length) {
                 typewriterElement.textContent += text.charAt(index);
                 index++;
-                setTimeout(typeEffect, 100);
+                setTimeout(typeEffect, typingSpeed);
             }
         };
     
         typeEffect();
     }
 
-    // Fade-in animations for About and Projects sections
-    function isInViewport(element) {
-        const rect = element.getBoundingClientRect();
-        return (
-            rect.top >= 0 &&
-            rect.left >= 0 &&
-            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-        );
-    }
-
-    function activateSections() {
-        const sections = document.querySelectorAll('.container');
-        sections.forEach(section => {
-            if (isInViewport(section)) {
-                section.classList.add('active');
-            } else {
-                section.classList.remove('active');
+    // Use IntersectionObserver for fade-in animations
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('active');
+                observer.unobserve(entry.target); // Stop observing once the element is visible
             }
         });
-    }
+    }, {
+        threshold: 0.1 // Trigger when 10% of the element is visible
+    });
 
-    // Initial activation on load and scroll
-    window.addEventListener('scroll', activateSections);
-    window.addEventListener('load', activateSections);
-    activateSections(); // Run on page load
+    const sections = document.querySelectorAll('.container');
+    sections.forEach(section => observer.observe(section));
+
 });
-
