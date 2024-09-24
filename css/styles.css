@@ -221,12 +221,14 @@ h1 {
 
 /* General bubble styles */
 .bubble {
+    width: 60px; /* Fixed width */
+    height: 60px; /* Fixed height */
     background-color: salmon;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: transform 150ms ease-in, background-color 150ms ease-in;
-    animation: float 5s ease-in-out infinite;
-    opacity: 1;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 2em;
+    margin: 5px; /* Margin for spacing */
+    transition: all 0.3s ease; /* Smooth transition for size change */
 }
 
 /* Floating animation */
@@ -273,10 +275,10 @@ h1 {
 .wrapper {
     display: flex;
     flex-wrap: wrap;
-    width: 270px;
-    padding: 0;
+    width: 100%;
+    padding: 20px;
     justify-content: center;
     align-items: center;
-    margin: 18% 41%;
+    gap: 10px; /* Adjust the gap between bubbles */
 }
 /* Too many css lines need to optimize the code */
