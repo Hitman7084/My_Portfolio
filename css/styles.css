@@ -258,8 +258,6 @@ h1 {
 .bubble.pop {
     animation: pop 0.5s forwards; /* Slow down the pop animation to 0.5 seconds */
 }
-
-
   
 .bubble:is(:hover, :focus) {
     background-color: grey;
