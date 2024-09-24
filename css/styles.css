@@ -141,13 +141,12 @@ h1 {
 /* Container General */
 .container {
     padding: 20px;
-    opacity: 0;
     min-height: 400px;
-    transition: opacity 1s ease;
+    transition: 1s ease;
 }
 
 .container.active {
-    opacity: 10;
+
 }
 
 /* Faded animation */
