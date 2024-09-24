@@ -1,7 +1,7 @@
 /* General body styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #FAEBD1;
+    background-color: #F5F1E9;
     margin: 0;
     box-sizing: border-box;
 }
@@ -28,7 +28,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #FAEBD1;
+    background-color: #F5F1E9;
     z-index: 1000;
 }
 
@@ -57,7 +57,7 @@ ul li {
 
 ul a {
     position: relative;
-    color: black;
+    color: #3C1A23;
     font-size: 20px;
     font-weight: 500;
     padding: 6px 0px;
@@ -71,7 +71,7 @@ ul li a:before {
     left: 0;
     height: 3px;
     width: 0%;
-    background: grey;
+    background: #3C1A23;
     border-radius: 12px;
     transition: all 0.4s ease;
 }
@@ -89,14 +89,14 @@ ul li a:before {
     text-align: center;
     font-size: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: black;
+    color: #3C1A23;
 }
 
 h1 {
     padding-top: 120px;
     text-align: center;
     font-size: 50px;
-    color: black;
+    color: #3C1A23;
     font-family: cursive;
 }
 
@@ -110,7 +110,7 @@ h1 {
 .captain {
     font-size: 20px;
     text-align: center;
-    color: black;
+    color: #3C1A23;
     display: flex;
     justify-content: space-around;
     gap: 50px;
@@ -132,6 +132,7 @@ h1 {
     justify-content: space-around;
     gap: 50px;
     text-align: center;
+    color: #3C1A23;
     margin-left: 20%;
     margin-right: 20%;
 }
@@ -199,7 +200,7 @@ h1 {
     text-align: center;
     font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: black;
+    color: #3C1A23;
     padding-bottom: 10px;
 }
 
@@ -277,6 +278,7 @@ h1 {
     align-items: center;
     margin: 18% 39%;
     gap: 10px;
+    color: #3C1A23;
 }
 
 .skills-section {
@@ -293,7 +295,7 @@ h1 {
 }
 
 .skill-bar {
-    background-color: #f1f1f1;
+    background-color: #F5F1E9;
     border-radius: 10px;
     overflow: hidden;
     position: relative;
@@ -306,12 +308,12 @@ h1 {
     top: 50%;
     transform: translateY(-50%);
     font-size: 18px;
-    color: black;
+    color: #3C1A23;
     font-weight: bold;
 }
 
 .skill-progress {
-    background-color: salmon;
+    background-color: #F5F1E9;
     height: 100%;
     width: 0;
     border-radius: 10px 0 0 10px;
