@@ -280,4 +280,18 @@ h1 {
     margin: 18% 39%;
     gap: 10px;
 }
-/* Too many css lines need to optimize the code */
+
+/* Subtle animated gradient 
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+#home {
+    background: linear-gradient(45deg, #FAEBD1, #B5FFFC);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+}
+
+ Too many css lines need to optimize the code */
