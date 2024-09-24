@@ -139,33 +139,14 @@ h1 {
 }
 
 /* Container General */
-.container {
+#home {
     padding: 20px;
-    min-height: 400px;
-    transition: 1s ease;
 }
 
-.container.active {
-
+.container {
+    margin-top: 18%;
 }
 
-/* Faded animation */
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-
-/* Responsive Styles */
-@media (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-    }
-    .captain, .admiral {
-        flex-direction: column;
-        margin-left: 0;
-        margin-right: 0;
-    }
-}
 
 /* Hover animation on icons */
 .icon {
