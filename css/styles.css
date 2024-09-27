@@ -109,20 +109,18 @@ h1 {
 /* Project Section */
 .captain {
     font-size: 20px;
-    text-align: center;
     color: #3C1A23;
     display: flex;
     justify-content: space-around;
     gap: 50px;
-    margin-left: 33%;
-    margin-right: 33%;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 .sergeant {
     font-family: cursive;
     text-align: center;
     display: inline-block;
-    margin: 20px;
 }
 
 /* About Section (uses .admiral) */
