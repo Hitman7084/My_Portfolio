@@ -11,6 +11,10 @@ html {
     scroll-padding-top: 120px;
 }
 
+.name {
+    color: #54426B;
+}
+
 /* Container General */
 #home {
     padding: 20px;
