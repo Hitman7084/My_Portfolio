@@ -336,14 +336,6 @@ h1 {
     background-color: #E34C26;
 }
 
-#css-skill .skill-progress {
-    background-color: #1572B6;
-}
-
-#js-skill .skill-progress {
-    background-color: #F0DB4F;
-}
-
 /* Subtle animated gradient 
 @keyframes gradientBG {
     0% { background-position: 0% 50%; }
