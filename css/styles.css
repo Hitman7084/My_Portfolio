@@ -290,7 +290,7 @@ h1 {
 }
 
 .skill-bar-container {
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
