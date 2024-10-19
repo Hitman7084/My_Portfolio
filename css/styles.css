@@ -116,10 +116,10 @@ h1 {
     font-size: 20px;
     color: #3C1A23;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     gap: 50px;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin: auto;
+    align-items: center;
 }
 
 .sergeant {
